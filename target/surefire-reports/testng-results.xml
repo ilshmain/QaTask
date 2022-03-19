@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-18T22:41:48 MSK" name="Surefire suite" finished-at="2022-03-18T22:41:58 MSK" duration-ms="9943">
+  <suite started-at="2022-03-19T10:42:57 MSK" name="Surefire suite" finished-at="2022-03-19T10:43:05 MSK" duration-ms="7838">
     <groups>
     </groups>
-    <test started-at="2022-03-18T22:41:48 MSK" name="Surefire test" finished-at="2022-03-18T22:41:58 MSK" duration-ms="9943">
-      <class name="ru.mirapolis.AuthorizationTest">
-        <test-method signature="authorization()" started-at="2022-03-18T22:41:48 MSK" name="authorization" finished-at="2022-03-18T22:41:57 MSK" duration-ms="8272" status="PASS">
+    <test started-at="2022-03-19T10:42:57 MSK" name="Surefire test" finished-at="2022-03-19T10:43:05 MSK" duration-ms="7838">
+      <class name="ru.mirapolis.Login.LoginTest">
+        <test-method signature="wrongLoginTest() throws java.lang.InterruptedException" started-at="2022-03-19T10:42:57 MSK" name="wrongLoginTest" finished-at="2022-03-19T10:43:00 MSK" duration-ms="3034" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- authorization -->
-        <test-method signature="test()" started-at="2022-03-18T22:41:48 MSK" name="test" finished-at="2022-03-18T22:41:58 MSK" duration-ms="9657" status="PASS">
+        </test-method> <!-- wrongLoginTest -->
+        <test-method signature="successfulLoginTest()" started-at="2022-03-19T10:42:57 MSK" name="successfulLoginTest" finished-at="2022-03-19T10:43:05 MSK" duration-ms="7790" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-      </class> <!-- ru.mirapolis.AuthorizationTest -->
+        </test-method> <!-- successfulLoginTest -->
+      </class> <!-- ru.mirapolis.Login.LoginTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>

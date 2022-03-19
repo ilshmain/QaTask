@@ -5,8 +5,7 @@
     <classes>
       <class name="org.junit.runner.Description">
         <methods>
-          <include name="authorization"/>
-          <include name="test"/>
+          <include name="successfulLoginTest"/>
         </methods>
       </class> <!-- org.junit.runner.Description -->
     </classes>
